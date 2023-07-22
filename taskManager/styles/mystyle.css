@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  color: white;
+  background-color: #212121;
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 37px);
+}
+
+#list {
+  background-color: rgb(253, 186, 79);
+  height: 100%;
+  flex: 2;
+}
+
+#form {
+  background-color: rgb(191, 191, 196);
+  height: 100%;
+  flex: 1;
+}
+
+#iNotImportant{
+    color: rgb(51, 243, 89);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#iNotImportant :hover{
+    color: #333;
+}
+
+.important-icon {
+    color: tomato; 
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.iImportant:hover{
+    color: rgb(194, 66, 66);
+}
+
