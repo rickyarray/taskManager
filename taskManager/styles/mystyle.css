@@ -13,10 +13,16 @@ h1 {
 main {
   display: flex;
   height: calc(100vh - 37px);
+
+
 }
 
 #list {
-  background-color: rgb(253, 186, 79);
+  /* background-color: rgb(253, 186, 79); */
+  background-image: url(/images/abstract-blurred-multi-colored-background-generative-ai.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 85%;
   height: 100%;
   flex: 2;
 }
@@ -25,6 +31,7 @@ main {
   background-color: rgb(191, 191, 196);
   height: 100%;
   flex: 1;
+  padding: 10px 20px
 }
 
 #iNotImportant{
@@ -47,3 +54,40 @@ main {
     color: rgb(194, 66, 66);
 }
 
+#btnDetails{
+    height: 40px;
+}
+
+.task {
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1.5px solid #969292;
+    border-left-width: 6px;
+    display: flex;
+    background-color: azure;
+}
+
+.task .info {
+    flex: 3;
+}
+
+.task .info p{
+    margin: 0;
+}
+
+.task .info h5{
+    margin-bottom: 3px;
+}
+.task .status{
+    flex: 1;
+}
+
+.date-budget{
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task .date-budget label {
+    display: block;
+}
